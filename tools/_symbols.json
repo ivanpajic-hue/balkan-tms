@@ -1,0 +1,1143 @@
+{
+ "owner": {
+  "$": "core/dom.js",
+  "$$": "core/dom.js",
+  "uid": "core/dom.js",
+  "todayISO": "core/dom.js",
+  "nowISO": "core/dom.js",
+  "addDays": "core/dom.js",
+  "daysUntil": "core/dom.js",
+  "esc": "core/dom.js",
+  "CUR_SYM": "core/dom.js",
+  "fmtMoney": "core/dom.js",
+  "fmtDate": "core/dom.js",
+  "toast": "core/dom.js",
+  "KEY": "core/config.js",
+  "SB_URL": "core/config.js",
+  "SB_ANON": "core/config.js",
+  "SB_TABLES": "core/config.js",
+  "TRANSACTIONAL": "core/config.js",
+  "sb": "core/supabase.js",
+  "sbClient": "core/supabase.js",
+  "sbQueue": "core/supabase.js",
+  "setSync": "core/supabase.js",
+  "sbEnqueue": "core/supabase.js",
+  "sbRowOf": "core/supabase.js",
+  "sbPush": "core/supabase.js",
+  "sbPushMany": "core/supabase.js",
+  "sbWipeAll": "core/supabase.js",
+  "sbFetchAll": "core/supabase.js",
+  "sbFetchUsers": "core/supabase.js",
+  "mapAppUsers": "core/supabase.js",
+  "state": "core/state.js",
+  "seed": "core/seed.js",
+  "Store": "core/store.js",
+  "MODULES": "core/rbac.js",
+  "ROLES": "core/rbac.js",
+  "can": "core/rbac.js",
+  "visibleModules": "core/rbac.js",
+  "audit": "core/rbac.js",
+  "companyName": "core/session.js",
+  "userCompanies": "core/session.js",
+  "canSeeAll": "core/session.js",
+  "computeAlerts": "ui/status.js",
+  "STATUS_BADGE": "ui/status.js",
+  "badge": "ui/status.js",
+  "compDot": "ui/status.js",
+  "renderTableState": "ui/table.js",
+  "renderTable": "ui/table.js",
+  "rerenderTable": "ui/table.js",
+  "doExport": "ui/table.js",
+  "openModal": "ui/modal.js",
+  "closeModal": "ui/modal.js",
+  "openModal2": "ui/modal.js",
+  "closeModal2": "ui/modal.js",
+  "appendOptionAll": "ui/modal.js",
+  "quickAddLookup": "ui/modal.js",
+  "quickAddClient": "ui/modal.js",
+  "field": "ui/modal.js",
+  "readForm": "ui/modal.js",
+  "saveBtn": "ui/modal.js",
+  "bindSave": "ui/modal.js",
+  "companyField": "ui/modal.js",
+  "pageHeader": "ui/modal.js",
+  "actionBtns": "ui/modal.js",
+  "confirmDelete": "ui/modal.js",
+  "lk": "ui/lookups.js",
+  "lkOpts": "ui/lookups.js",
+  "lkName": "ui/lookups.js",
+  "setting": "ui/lookups.js",
+  "setSetting": "ui/lookups.js",
+  "countryOpts": "ui/lookups.js",
+  "CHART_COLORS": "ui/charts.js",
+  "svgBars": "ui/charts.js",
+  "svgGroupedBars": "ui/charts.js",
+  "svgLine": "ui/charts.js",
+  "svgDonut": "ui/charts.js",
+  "openClientForm": "modules/clients.js",
+  "vehCount": "modules/orders.js",
+  "nextOrderNo": "modules/orders.js",
+  "openOrderForm": "modules/orders.js",
+  "invoicedSum": "modules/orders.js",
+  "planFilter": "modules/planning.js",
+  "_planDrag": "modules/planning.js",
+  "planCapacityOf": "modules/planning.js",
+  "tripRoute": "modules/trips.js",
+  "refreshTripRoute": "modules/trips.js",
+  "nextTripNo": "modules/trips.js",
+  "openTripForm": "modules/trips.js",
+  "openExpenseForm": "modules/expenses.js",
+  "paidSum": "modules/invoices.js",
+  "nextInvoiceNo": "modules/invoices.js",
+  "openInvoiceForm": "modules/invoices.js",
+  "purStatusBadge": "modules/purchases.js",
+  "purLink": "modules/purchases.js",
+  "openPurchaseForm": "modules/purchases.js",
+  "openSettlementForm": "modules/settlements.js",
+  "recomputeSettlement": "modules/settlements.js",
+  "nextFleetAlert": "modules/fleet.js",
+  "openFleetForm": "modules/fleet.js",
+  "nextDriverAlert": "modules/drivers.js",
+  "openDriverForm": "modules/drivers.js",
+  "repFilter": "modules/reports.js",
+  "monthsBetween": "modules/reports.js",
+  "collapsed": "modules/admin.js",
+  "LOOKUP_DEFS": "modules/admin.js",
+  "lookupCard": "modules/admin.js",
+  "visibleModulesFor": "modules/admin.js",
+  "replaceRemoteDb": "modules/admin.js",
+  "avatarColor": "app/shell.js",
+  "initials": "app/shell.js",
+  "mountShell": "app/shell.js",
+  "globalSearch": "app/shell.js",
+  "loginErr": "app/auth.js",
+  "doLogin": "app/auth.js",
+  "enterApp": "app/auth.js",
+  "finishLogin": "app/auth.js",
+  "showFirstRun": "app/auth.js",
+  "render": "app/router.js",
+  "Views": "modules/registry.js"
+ },
+ "exports": {
+  "core/dom.js": [
+   "$",
+   "$$",
+   "uid",
+   "todayISO",
+   "nowISO",
+   "addDays",
+   "daysUntil",
+   "esc",
+   "CUR_SYM",
+   "fmtMoney",
+   "fmtDate",
+   "toast"
+  ],
+  "core/config.js": [
+   "KEY",
+   "SB_URL",
+   "SB_ANON",
+   "SB_TABLES",
+   "TRANSACTIONAL"
+  ],
+  "core/supabase.js": [
+   "sb",
+   "sbClient",
+   "sbQueue",
+   "setSync",
+   "sbEnqueue",
+   "sbRowOf",
+   "sbPush",
+   "sbPushMany",
+   "sbWipeAll",
+   "sbFetchAll",
+   "sbFetchUsers",
+   "mapAppUsers"
+  ],
+  "core/state.js": [
+   "state"
+  ],
+  "core/seed.js": [
+   "seed"
+  ],
+  "core/store.js": [
+   "Store"
+  ],
+  "core/rbac.js": [
+   "MODULES",
+   "ROLES",
+   "can",
+   "visibleModules",
+   "audit"
+  ],
+  "core/session.js": [
+   "companyName",
+   "userCompanies",
+   "canSeeAll"
+  ],
+  "ui/status.js": [
+   "computeAlerts",
+   "STATUS_BADGE",
+   "badge",
+   "compDot"
+  ],
+  "ui/table.js": [
+   "renderTableState",
+   "renderTable",
+   "rerenderTable",
+   "doExport"
+  ],
+  "ui/modal.js": [
+   "openModal",
+   "closeModal",
+   "openModal2",
+   "closeModal2",
+   "appendOptionAll",
+   "quickAddLookup",
+   "quickAddClient",
+   "field",
+   "readForm",
+   "saveBtn",
+   "bindSave",
+   "companyField",
+   "pageHeader",
+   "actionBtns",
+   "confirmDelete"
+  ],
+  "ui/lookups.js": [
+   "lk",
+   "lkOpts",
+   "lkName",
+   "setting",
+   "setSetting",
+   "countryOpts"
+  ],
+  "ui/charts.js": [
+   "CHART_COLORS",
+   "svgBars",
+   "svgGroupedBars",
+   "svgLine",
+   "svgDonut"
+  ],
+  "modules/dashboard.js": [],
+  "modules/clients.js": [
+   "openClientForm"
+  ],
+  "modules/orders.js": [
+   "vehCount",
+   "nextOrderNo",
+   "openOrderForm",
+   "invoicedSum"
+  ],
+  "modules/planning.js": [
+   "planFilter",
+   "_planDrag",
+   "planCapacityOf"
+  ],
+  "modules/trips.js": [
+   "tripRoute",
+   "refreshTripRoute",
+   "nextTripNo",
+   "openTripForm"
+  ],
+  "modules/expenses.js": [
+   "openExpenseForm"
+  ],
+  "modules/invoices.js": [
+   "paidSum",
+   "nextInvoiceNo",
+   "openInvoiceForm"
+  ],
+  "modules/purchases.js": [
+   "purStatusBadge",
+   "purLink",
+   "openPurchaseForm"
+  ],
+  "modules/settlements.js": [
+   "openSettlementForm",
+   "recomputeSettlement"
+  ],
+  "modules/fleet.js": [
+   "nextFleetAlert",
+   "openFleetForm"
+  ],
+  "modules/drivers.js": [
+   "nextDriverAlert",
+   "openDriverForm"
+  ],
+  "modules/reports.js": [
+   "repFilter",
+   "monthsBetween"
+  ],
+  "modules/alerts.js": [],
+  "modules/admin.js": [
+   "collapsed",
+   "LOOKUP_DEFS",
+   "lookupCard",
+   "visibleModulesFor",
+   "replaceRemoteDb"
+  ],
+  "app/shell.js": [
+   "avatarColor",
+   "initials",
+   "mountShell",
+   "globalSearch"
+  ],
+  "app/auth.js": [
+   "loginErr",
+   "doLogin",
+   "enterApp",
+   "finishLogin",
+   "showFirstRun"
+  ],
+  "app/router.js": [
+   "render"
+  ],
+  "modules/registry.js": [
+   "Views"
+  ]
+ },
+ "imports": {
+  "core/dom.js": {},
+  "core/config.js": {},
+  "core/supabase.js": {
+   "core/config.js": [
+    "SB_ANON",
+    "SB_TABLES",
+    "SB_URL"
+   ],
+   "core/dom.js": [
+    "nowISO",
+    "toast"
+   ]
+  },
+  "core/state.js": {},
+  "core/seed.js": {
+   "core/dom.js": [
+    "addDays",
+    "todayISO",
+    "uid"
+   ]
+  },
+  "core/store.js": {
+   "core/config.js": [
+    "SB_TABLES",
+    "TRANSACTIONAL"
+   ],
+   "core/supabase.js": [
+    "mapAppUsers",
+    "sbFetchAll",
+    "sbFetchUsers",
+    "sbPush",
+    "sbPushMany"
+   ],
+   "core/dom.js": [
+    "nowISO",
+    "uid"
+   ],
+   "core/seed.js": [
+    "seed"
+   ],
+   "core/state.js": [
+    "state"
+   ]
+  },
+  "core/rbac.js": {
+   "core/store.js": [
+    "Store"
+   ],
+   "core/dom.js": [
+    "nowISO"
+   ],
+   "core/state.js": [
+    "state"
+   ]
+  },
+  "core/session.js": {
+   "core/store.js": [
+    "Store"
+   ],
+   "core/state.js": [
+    "state"
+   ]
+  },
+  "ui/status.js": {
+   "core/store.js": [
+    "Store"
+   ],
+   "core/dom.js": [
+    "daysUntil",
+    "esc"
+   ],
+   "core/state.js": [
+    "state"
+   ]
+  },
+  "ui/table.js": {
+   "core/dom.js": [
+    "esc",
+    "toast"
+   ]
+  },
+  "ui/modal.js": {
+   "core/dom.js": [
+    "$",
+    "$$",
+    "esc",
+    "toast",
+    "uid"
+   ],
+   "core/rbac.js": [
+    "MODULES",
+    "audit",
+    "can"
+   ],
+   "core/store.js": [
+    "Store"
+   ],
+   "core/session.js": [
+    "companyName",
+    "userCompanies"
+   ],
+   "app/router.js": [
+    "render"
+   ],
+   "core/state.js": [
+    "state"
+   ]
+  },
+  "ui/lookups.js": {
+   "core/store.js": [
+    "Store"
+   ],
+   "core/state.js": [
+    "state"
+   ]
+  },
+  "ui/charts.js": {
+   "core/dom.js": [
+    "esc"
+   ]
+  },
+  "modules/dashboard.js": {
+   "core/store.js": [
+    "Store"
+   ],
+   "modules/registry.js": [
+    "Views"
+   ],
+   "ui/status.js": [
+    "badge",
+    "compDot",
+    "computeAlerts"
+   ],
+   "core/session.js": [
+    "companyName"
+   ],
+   "core/dom.js": [
+    "daysUntil",
+    "esc",
+    "fmtDate",
+    "fmtMoney",
+    "todayISO"
+   ],
+   "core/state.js": [
+    "state"
+   ]
+  },
+  "modules/clients.js": {
+   "core/store.js": [
+    "Store"
+   ],
+   "modules/registry.js": [
+    "Views"
+   ],
+   "ui/modal.js": [
+    "actionBtns",
+    "bindSave",
+    "closeModal",
+    "companyField",
+    "confirmDelete",
+    "field",
+    "openModal",
+    "pageHeader",
+    "saveBtn"
+   ],
+   "core/rbac.js": [
+    "audit"
+   ],
+   "ui/status.js": [
+    "badge",
+    "compDot"
+   ],
+   "core/dom.js": [
+    "esc",
+    "toast"
+   ],
+   "app/router.js": [
+    "render"
+   ],
+   "ui/table.js": [
+    "renderTable"
+   ]
+  },
+  "modules/orders.js": {
+   "core/dom.js": [
+    "$",
+    "$$",
+    "addDays",
+    "esc",
+    "fmtDate",
+    "fmtMoney",
+    "toast",
+    "todayISO"
+   ],
+   "ui/status.js": [
+    "STATUS_BADGE",
+    "badge",
+    "compDot"
+   ],
+   "core/store.js": [
+    "Store"
+   ],
+   "modules/registry.js": [
+    "Views"
+   ],
+   "ui/modal.js": [
+    "actionBtns",
+    "appendOptionAll",
+    "bindSave",
+    "closeModal",
+    "companyField",
+    "confirmDelete",
+    "field",
+    "openModal",
+    "pageHeader",
+    "quickAddClient",
+    "quickAddLookup",
+    "saveBtn"
+   ],
+   "core/rbac.js": [
+    "audit",
+    "can"
+   ],
+   "ui/lookups.js": [
+    "countryOpts",
+    "lk",
+    "lkName",
+    "lkOpts",
+    "setting"
+   ],
+   "app/router.js": [
+    "render"
+   ],
+   "ui/table.js": [
+    "renderTable"
+   ],
+   "core/state.js": [
+    "state"
+   ]
+  },
+  "modules/planning.js": {
+   "core/dom.js": [
+    "$",
+    "$$",
+    "esc",
+    "fmtDate",
+    "toast"
+   ],
+   "core/store.js": [
+    "Store"
+   ],
+   "modules/registry.js": [
+    "Views"
+   ],
+   "core/rbac.js": [
+    "audit",
+    "can"
+   ],
+   "ui/status.js": [
+    "badge",
+    "compDot"
+   ],
+   "ui/modal.js": [
+    "closeModal",
+    "openModal"
+   ],
+   "core/session.js": [
+    "companyName"
+   ],
+   "modules/trips.js": [
+    "refreshTripRoute"
+   ],
+   "app/router.js": [
+    "render"
+   ],
+   "core/state.js": [
+    "state"
+   ],
+   "modules/orders.js": [
+    "vehCount"
+   ]
+  },
+  "modules/trips.js": {
+   "core/dom.js": [
+    "$",
+    "$$",
+    "addDays",
+    "esc",
+    "fmtDate",
+    "fmtMoney",
+    "toast",
+    "todayISO"
+   ],
+   "core/store.js": [
+    "Store"
+   ],
+   "modules/registry.js": [
+    "Views"
+   ],
+   "ui/modal.js": [
+    "actionBtns",
+    "bindSave",
+    "closeModal",
+    "companyField",
+    "confirmDelete",
+    "field",
+    "openModal",
+    "pageHeader",
+    "saveBtn"
+   ],
+   "core/rbac.js": [
+    "audit",
+    "can"
+   ],
+   "ui/status.js": [
+    "badge",
+    "compDot"
+   ],
+   "ui/lookups.js": [
+    "lkName"
+   ],
+   "modules/expenses.js": [
+    "openExpenseForm"
+   ],
+   "modules/settlements.js": [
+    "openSettlementForm"
+   ],
+   "app/router.js": [
+    "render"
+   ],
+   "ui/table.js": [
+    "renderTable"
+   ],
+   "core/state.js": [
+    "state"
+   ],
+   "core/session.js": [
+    "userCompanies"
+   ]
+  },
+  "modules/expenses.js": {
+   "core/store.js": [
+    "Store"
+   ],
+   "modules/registry.js": [
+    "Views"
+   ],
+   "ui/modal.js": [
+    "actionBtns",
+    "appendOptionAll",
+    "bindSave",
+    "closeModal",
+    "companyField",
+    "confirmDelete",
+    "field",
+    "openModal",
+    "pageHeader",
+    "quickAddLookup",
+    "saveBtn"
+   ],
+   "core/rbac.js": [
+    "audit",
+    "can"
+   ],
+   "ui/status.js": [
+    "compDot"
+   ],
+   "core/dom.js": [
+    "esc",
+    "fmtDate",
+    "fmtMoney",
+    "toast",
+    "todayISO"
+   ],
+   "ui/lookups.js": [
+    "lk",
+    "lkName"
+   ],
+   "app/router.js": [
+    "render"
+   ],
+   "ui/table.js": [
+    "renderTable"
+   ],
+   "core/state.js": [
+    "state"
+   ],
+   "core/session.js": [
+    "userCompanies"
+   ]
+  },
+  "modules/invoices.js": {
+   "core/dom.js": [
+    "$",
+    "$$",
+    "esc",
+    "fmtDate",
+    "fmtMoney",
+    "toast",
+    "todayISO"
+   ],
+   "core/store.js": [
+    "Store"
+   ],
+   "modules/registry.js": [
+    "Views"
+   ],
+   "ui/modal.js": [
+    "actionBtns",
+    "bindSave",
+    "closeModal",
+    "companyField",
+    "confirmDelete",
+    "field",
+    "openModal",
+    "pageHeader",
+    "saveBtn"
+   ],
+   "core/rbac.js": [
+    "audit",
+    "can"
+   ],
+   "ui/status.js": [
+    "badge",
+    "compDot"
+   ],
+   "modules/orders.js": [
+    "invoicedSum"
+   ],
+   "app/router.js": [
+    "render"
+   ],
+   "ui/table.js": [
+    "renderTable"
+   ],
+   "core/state.js": [
+    "state"
+   ],
+   "core/session.js": [
+    "userCompanies"
+   ]
+  },
+  "modules/purchases.js": {
+   "core/dom.js": [
+    "$",
+    "addDays",
+    "esc",
+    "fmtDate",
+    "fmtMoney",
+    "toast",
+    "todayISO"
+   ],
+   "core/store.js": [
+    "Store"
+   ],
+   "modules/registry.js": [
+    "Views"
+   ],
+   "ui/modal.js": [
+    "actionBtns",
+    "bindSave",
+    "closeModal",
+    "companyField",
+    "confirmDelete",
+    "field",
+    "openModal",
+    "pageHeader",
+    "saveBtn"
+   ],
+   "core/rbac.js": [
+    "audit",
+    "can"
+   ],
+   "ui/status.js": [
+    "compDot"
+   ],
+   "ui/lookups.js": [
+    "lk",
+    "lkName"
+   ],
+   "app/router.js": [
+    "render"
+   ],
+   "ui/table.js": [
+    "renderTable"
+   ],
+   "core/state.js": [
+    "state"
+   ],
+   "core/session.js": [
+    "userCompanies"
+   ]
+  },
+  "modules/settlements.js": {
+   "core/dom.js": [
+    "$",
+    "$$",
+    "addDays",
+    "esc",
+    "fmtDate",
+    "fmtMoney",
+    "toast",
+    "todayISO"
+   ],
+   "core/store.js": [
+    "Store"
+   ],
+   "modules/registry.js": [
+    "Views"
+   ],
+   "core/rbac.js": [
+    "audit",
+    "can"
+   ],
+   "ui/status.js": [
+    "badge",
+    "compDot"
+   ],
+   "ui/modal.js": [
+    "bindSave",
+    "closeModal",
+    "companyField",
+    "field",
+    "openModal",
+    "pageHeader",
+    "readForm",
+    "saveBtn"
+   ],
+   "ui/lookups.js": [
+    "lk",
+    "lkName"
+   ],
+   "app/router.js": [
+    "render"
+   ],
+   "ui/table.js": [
+    "renderTable"
+   ],
+   "core/state.js": [
+    "state"
+   ],
+   "core/session.js": [
+    "userCompanies"
+   ]
+  },
+  "modules/fleet.js": {
+   "core/dom.js": [
+    "$",
+    "$$",
+    "addDays",
+    "daysUntil",
+    "esc",
+    "fmtDate",
+    "toast",
+    "todayISO"
+   ],
+   "core/store.js": [
+    "Store"
+   ],
+   "modules/registry.js": [
+    "Views"
+   ],
+   "ui/modal.js": [
+    "actionBtns",
+    "bindSave",
+    "closeModal",
+    "companyField",
+    "confirmDelete",
+    "field",
+    "openModal",
+    "pageHeader",
+    "saveBtn"
+   ],
+   "core/rbac.js": [
+    "audit",
+    "can"
+   ],
+   "ui/status.js": [
+    "badge",
+    "compDot"
+   ],
+   "ui/lookups.js": [
+    "lk"
+   ],
+   "app/router.js": [
+    "render"
+   ],
+   "ui/table.js": [
+    "renderTable"
+   ],
+   "core/state.js": [
+    "state"
+   ],
+   "core/session.js": [
+    "userCompanies"
+   ]
+  },
+  "modules/drivers.js": {
+   "core/dom.js": [
+    "$",
+    "$$",
+    "addDays",
+    "daysUntil",
+    "esc",
+    "fmtDate",
+    "toast",
+    "todayISO"
+   ],
+   "core/store.js": [
+    "Store"
+   ],
+   "modules/registry.js": [
+    "Views"
+   ],
+   "ui/modal.js": [
+    "actionBtns",
+    "bindSave",
+    "closeModal",
+    "companyField",
+    "confirmDelete",
+    "field",
+    "openModal",
+    "pageHeader",
+    "saveBtn"
+   ],
+   "core/rbac.js": [
+    "audit",
+    "can"
+   ],
+   "ui/status.js": [
+    "badge",
+    "compDot"
+   ],
+   "ui/lookups.js": [
+    "lk"
+   ],
+   "app/router.js": [
+    "render"
+   ],
+   "ui/table.js": [
+    "renderTable"
+   ]
+  },
+  "modules/reports.js": {
+   "core/store.js": [
+    "Store"
+   ],
+   "modules/registry.js": [
+    "Views"
+   ],
+   "core/dom.js": [
+    "addDays",
+    "esc",
+    "fmtDate",
+    "fmtMoney",
+    "todayISO"
+   ],
+   "ui/status.js": [
+    "badge"
+   ],
+   "core/session.js": [
+    "companyName"
+   ],
+   "ui/lookups.js": [
+    "lkName"
+   ],
+   "app/router.js": [
+    "render"
+   ],
+   "ui/table.js": [
+    "renderTable"
+   ],
+   "core/state.js": [
+    "state"
+   ],
+   "ui/charts.js": [
+    "svgBars",
+    "svgDonut",
+    "svgGroupedBars",
+    "svgLine"
+   ],
+   "modules/trips.js": [
+    "tripRoute"
+   ]
+  },
+  "modules/alerts.js": {
+   "modules/registry.js": [
+    "Views"
+   ],
+   "ui/status.js": [
+    "badge",
+    "compDot",
+    "computeAlerts"
+   ],
+   "core/session.js": [
+    "companyName"
+   ],
+   "core/dom.js": [
+    "esc",
+    "fmtDate"
+   ],
+   "core/state.js": [
+    "state"
+   ]
+  },
+  "modules/admin.js": {
+   "core/dom.js": [
+    "$",
+    "$$",
+    "esc",
+    "fmtMoney",
+    "toast"
+   ],
+   "core/config.js": [
+    "KEY",
+    "SB_ANON",
+    "SB_URL"
+   ],
+   "core/rbac.js": [
+    "MODULES",
+    "ROLES",
+    "audit",
+    "can"
+   ],
+   "core/store.js": [
+    "Store"
+   ],
+   "modules/registry.js": [
+    "Views"
+   ],
+   "ui/modal.js": [
+    "bindSave",
+    "closeModal",
+    "confirmDelete",
+    "field",
+    "openModal",
+    "saveBtn"
+   ],
+   "ui/status.js": [
+    "compDot"
+   ],
+   "core/session.js": [
+    "companyName"
+   ],
+   "core/supabase.js": [
+    "mapAppUsers",
+    "sbClient",
+    "sbFetchUsers",
+    "sbWipeAll"
+   ],
+   "app/router.js": [
+    "render"
+   ],
+   "ui/lookups.js": [
+    "setSetting",
+    "setting"
+   ],
+   "core/state.js": [
+    "state"
+   ]
+  },
+  "app/shell.js": {
+   "core/dom.js": [
+    "$",
+    "$$",
+    "esc"
+   ],
+   "core/rbac.js": [
+    "ROLES",
+    "can",
+    "visibleModules"
+   ],
+   "core/store.js": [
+    "Store"
+   ],
+   "core/session.js": [
+    "canSeeAll",
+    "userCompanies"
+   ],
+   "ui/modal.js": [
+    "closeModal",
+    "openModal"
+   ],
+   "app/router.js": [
+    "render"
+   ],
+   "core/state.js": [
+    "state"
+   ]
+  },
+  "app/auth.js": {
+   "core/dom.js": [
+    "$",
+    "$$",
+    "toast"
+   ],
+   "core/rbac.js": [
+    "ROLES",
+    "audit"
+   ],
+   "core/store.js": [
+    "Store"
+   ],
+   "ui/modal.js": [
+    "closeModal",
+    "openModal"
+   ],
+   "app/shell.js": [
+    "mountShell"
+   ],
+   "app/router.js": [
+    "render"
+   ],
+   "core/supabase.js": [
+    "sbClient"
+   ],
+   "core/state.js": [
+    "state"
+   ],
+   "core/session.js": [
+    "userCompanies"
+   ]
+  },
+  "app/router.js": {
+   "core/dom.js": [
+    "$",
+    "$$"
+   ],
+   "modules/registry.js": [
+    "Views"
+   ],
+   "core/rbac.js": [
+    "can"
+   ],
+   "ui/modal.js": [
+    "closeModal"
+   ],
+   "core/state.js": [
+    "state"
+   ]
+  }
+ }
+}
