@@ -1,0 +1,19 @@
+{
+  "name": "balkan-tms",
+  "version": "4.0.0-a0.2",
+  "private": true,
+  "type": "module",
+  "description": "BALKAN TMS — sistem za auto-logistiku (BALKAN AVTO d.o.o. / BALKAN TRANSPORT d.o.o.)",
+  "scripts": {
+    "dev": "node tools/dev-server.mjs",
+    "check": "node tools/check.mjs",
+    "smoke": "node tools/smoke.mjs",
+    "parity": "node tools/parity.mjs",
+    "test": "npm run check && npm run smoke"
+  },
+  "devDependencies": {
+    "acorn": "^8.18.0",
+    "eslint-scope": "^8.0.0",
+    "jsdom": "^30.0.0"
+  }
+}
